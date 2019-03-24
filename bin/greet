@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/greeting.rb"
 
-puts "Hi! W"
-puts "Please enter elcome to the easy world of Ruby programming.your name so we can greet you personally:"
+puts ""
+puts "Please enter your name so we can greet you personally:"
 name = gets.strip
 greeting(name)
